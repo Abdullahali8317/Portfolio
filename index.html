@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ccf750dc4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!----
+GreatStack
+-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hearder-text">
+                <p>Software Developer</p>
+                <h1>Hi,I am <span>Abdullah</span> <br>from India</h1>
+
+            </div>
+        </div>
+    </div>
+<!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/businessman-s-torso-suit.jpg" class="businessman">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        A skilled software developer with expertise in diverse technologies, adept at problem-solving, and delivering innovative solutions. Strong passion for continuous learning, committed to excellence in every project.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span><br>Designing pages</li>
+                            <li><span>CSS</span><br>Inhancing pages</li>
+                            <li><span>JavaScript</span><br>For calculating,manipulating and validating data</li>
+                            <li><span>TypeScript</span><br>TypeScript is a strongly typed programming language that builds on JavaScript</li>
+                            <li><span>git</span><br>Git is used to collaborate on code</li>
+                            <li><span>Python</span><br>Python is a high-level, general-purpose programming language</li>
+                            <li><span>SQL</span><br>Structured Query Language is a computer language that we use to interact with a relational database</li>
+                            <li><span>Bootstrap</span><br>Bootstrap is a free and open-source tool collection for creating responsive websites and web applications</li>
+                            <li><span>React.js</span><br> The React.js framework is an open-source JavaScript framework and library developed by Facebook.</li>
+                            <li><span>GitHub</span><br>GitHub is a Git repository hosting service.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Fresher</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024(Pursuing)</span><br>B.Tech at Dr.A.P.J. Abdul Kalam Technical University</li>
+                            <li><span>2019-2020</span><br>Intermediate</li>
+                            <li><span>2017-2018</span><br>High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------services---------->
+<div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developement</h2>
+                <p>Proficient in building responsive and interactive web applications using HTML5, CSS, and JavaScript. Skilled in utilizing Bootstrap for creating modern and aesthetically pleasing user interfaces.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-free-code-camp"></i>
+                <h2>Frontend Development</h2>
+                <p>Experienced with React.js, capable of developing dynamic and efficient frontend components, and harnessing the power of JavaScript libraries for seamless user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Skilled in working with SQL to design, manage, and query relational databases, enabling data-driven decision-making.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Programming</h2>
+                <p>Proficient in Python, leveraging its fundamentals to build versatile and efficient solutions, and continuously expanding my skillset to embrace new technologies and coding practices.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Version Control</h2>
+                <p>Familiar with Git and actively learning to utilize GitHub for effective collaboration and code management, eager to enhance version control skills to contribute seamlessly to development projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+    </div>
+<!---------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/14192.jpg" class="newsapp">
+                <div class="layer">
+                    <h3>News App</h3>
+                    <p>The news app is a user-friendly and comprehensive mobile application designed to deliver up-to-date and personalized news content to users. With a sleek and intuitive interface, the app offers a seamless user experience, allowing individuals to stay informed about current events, breaking news, and trending topics from around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/pexels-ann-h-14936128.jpg" class="portfolio" >
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>
+                        The portfolio project, crafted using HTML, CSS, and JavaScript, is a showcase of creativity and technical prowess. With an eye-catching design and responsive layout, it presents an impressive collection of projects and skills. Smooth animations and interactive elements enhance user engagement. A user-friendly interface allows visitors to explore works effortlessly. This dynamic portfolio stands as a testament to the developer's proficiency and dedication.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abdullahali8317@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(+91)8317008254</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/cvadd kro" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       <p> Copyright @ Abdullah. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <style>
+        #msg {
+          display: none;
+        }
+      </style>
+    
+    <script>
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+        const scriptURL = 'YOUR_GOOGLE_SHEETS_SCRIPT_URL_HERE'; // Replace this with your actual Google Sheets script URL
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+              msg.style.display = "block"; // Show the message after a successful form submission
+              msg.innerHTML = "Message sent successfully";
+              setTimeout(function () {
+                msg.style.display = "none"; // Hide the message after a few seconds
+              }, 5000);
+              form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+      </script>
+</body>
+</html>
